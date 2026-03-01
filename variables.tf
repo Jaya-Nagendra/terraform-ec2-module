@@ -15,9 +15,9 @@ variable "instance_type" {
   type = string
 }
 
-# variable "sg_id" {
-#   default = {}
-# }
+variable "sg_ids" {
+  default = {}
+}
 
 variable "tags" {
   type = map
